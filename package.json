@@ -1,0 +1,4 @@
+{
+    "name": "node-shooter",
+    "main": "./lib/main.js"
+}

@@ -1,0 +1,1 @@
+Pretend to get shooter subtitle according to the file name.
