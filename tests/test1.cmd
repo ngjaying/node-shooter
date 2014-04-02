@@ -1,0 +1,1 @@
+node main.js ../tests/testidx.avi 
