@@ -23,6 +23,6 @@
 		"node": "~0.10.x"
 	},
 	"scripts": {
-		"test": "node tests/run.js"
+		"test": "node tests/test-ns.js"
 	}
 }
