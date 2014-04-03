@@ -1,0 +1,1 @@
+@node "node-shooter-cmd.js" %*

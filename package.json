@@ -1,4 +1,28 @@
 {
-    "name": "node-shooter",
-    "main": "./lib/main.js"
+	"name": "node-shooter",
+	"description": "Get subtitle for movies from Shooter by Shooter API",
+	"version": "0.0.1",
+	"license": "MIT",
+	"tags": [
+		"shooter",
+		"subtitle"
+	],
+	"author": "najaying <najaying@gmail.com>",
+	"main": "index.js",
+	"dependencies": {
+		"MD5": "~1.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ngjaying/node-shooter.git"
+	},
+	"bugs": {
+		"url": "https://github.com/ngjaying/node-shooter/issues"
+	},
+	"engines": {
+		"node": "~0.10.x"
+	},
+	"scripts": {
+		"test": "node tests/run.js"
+	}
 }

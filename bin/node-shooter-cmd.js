@@ -1,6 +1,9 @@
-(function(){
-	var ns = require('./ns.js');
-	var args = process.argv.slice(2);
+/**
+ *	Allow arguments: [fileName, language]
+ **/
+(function() {
+	var ns = require('../lib/ns'),
+		args = process.argv.slice(2);
 	// ns.getFileHash(args[0], function(err, hash){
 	// 	if(err){
 	// 		console.log(err.message);
@@ -16,7 +19,10 @@
 	// 		});
 	// 	}		
 	// });
-	ns.getSub(args[0], function(){
-		console.log('download successful');
-	}, 'Chn', true);
+	ns.getSub(args[0], {
+		lang: args[1],
+		targetPath: args[2]
+	}, function() {
+		console.log('Subtitle download successful');
+	});
 })();
