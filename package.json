@@ -1,7 +1,7 @@
 {
 	"name": "node-shooter",
 	"description": "Get subtitle for movies from Shooter by Shooter API",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"license": "MIT",
 	"tags": [
 		"shooter",
